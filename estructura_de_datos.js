@@ -128,4 +128,16 @@ function evaluarNumeros(a, b, c) {
           return "Todos los números son cero o negativos";
         }
 }
-}
+// Exportar todas las funciones
+export {
+    verificarParidad,
+    clasificarEdad,
+    cuentaRegresiva,
+    repetirMensaje,
+    imprimirPares,
+    detenerEnSeis,
+    saltarCinco,
+    obtenerDiaSemana,
+    esVocal,
+    evaluarNumeros,
+};
