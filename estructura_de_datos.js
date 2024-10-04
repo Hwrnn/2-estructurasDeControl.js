@@ -72,11 +72,12 @@ function detenerEnSeis() {
 // Ejercicio 7: Uso de continue
 // Instrucción: Crea una función que recorra los números del 1 al 10, pero que se salte el número 5 usando `continue`.
 function saltarCinco() {
-    for (let i = 0; i < numero; i++) {
-        const esPar = i % 2 === 0;
-        if (esPar) {
-          continue;
+    for (let i = 1; i <= 10; i++) {
+        if (i === 5) {
+            continue; 
         }
+        console.log(i); 
+    }
 }
 
 // Ejercicio 8: Switch básico
